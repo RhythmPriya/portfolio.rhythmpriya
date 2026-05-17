@@ -97,7 +97,47 @@ nav {
     color: #64748b;
     cursor: pointer;
 }
+[data-theme="dark"] {
+    background-color: #121212;
+    color: #ffffff;
+}
 
+[data-theme="dark"] body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+[data-theme="dark"] nav {
+    background-color: #1e1e1e;
+}
+
+[data-theme="dark"] .project-card {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    box-shadow: 0 10px 25px rgba(255,255,255,0.05);
+}
+
+[data-theme="dark"] a {
+    color: #90caf9;
+}
+
+[data-theme="dark"] .theme-toggle {
+    background: #333;
+    color: white;
+}
+.theme-toggle {
+    border: none;
+    background: #f0f0f0;
+    padding: 10px 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+}
 /* Hero Section */
 .hero {
     min-height: 100vh;
