@@ -236,11 +236,29 @@ nav {
     margin-bottom: 0.5rem;
     color: #2c3e50;
 }
+.project-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.project-card {
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
 
 .profile-card .title {
     color: #667eea;
     font-weight: 600;
     margin-bottom: 0.25rem;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
 }
 
 .profile-card .university {
